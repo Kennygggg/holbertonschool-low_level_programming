@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# Git Alias
+alias ga='git add'
+alias gc='git commit -m'
+alias gp='git push'
+alias gs='git status'
+
+# Other Alias
+alias ux='chmod u+x '
+
+# Git configs
+git config --global credential.helper 'cache --timeout=7200'
+git config --global user.name "Ken  Nguyen"
+git config --global user.email "kendrickbnguyen@gmail.com"
+
+# Prompt Name Customisation
+PS1='\n\[\e[1;35m\]Kennyg:\w\[\e[0m\]\n\$ '
+
+# Later we need to add script to source./ for bashrc and other theme configs.
