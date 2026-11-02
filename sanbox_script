@@ -18,3 +18,6 @@ git config --global user.email "kendrickbnguyen@gmail.com"
 PS1='\n\[\e[1;35m\]Kennyg:\w\[\e[0m\]\n\$ '
 
 # Later we need to add script to source./ for bashrc and other theme configs.
+
+# Install Betty linter
+sudo ~/holbertonschool-low_level_programming/Betty/install.sh
