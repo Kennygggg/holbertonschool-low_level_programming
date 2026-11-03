@@ -22,7 +22,3 @@ PS1='\n\[\e[1;35m\]Kennyg:\w\[\e[0m\]\n\$ '
 
 # Install Betty linter
 sudo ~/holbertonschool-low_level_programming/Betty/install.sh
-
-## .vimrc config 
-# set numbers
-echo 'set number' > ~/.vimrc

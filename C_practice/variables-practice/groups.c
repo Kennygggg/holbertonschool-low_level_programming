@@ -17,4 +17,3 @@ int main(void)
 	printf("Holds left over: %d\n", leftover);
 	return (0);
 }
-	
