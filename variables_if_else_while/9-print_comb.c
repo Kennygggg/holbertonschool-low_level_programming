@@ -23,6 +23,6 @@ int main(void)
 		}
 		number = number + 1;
 	}
-	putchar(number);
+	putchar('\n');
 	return (0);
 }
