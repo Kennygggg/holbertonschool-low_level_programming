@@ -23,9 +23,6 @@ void print_alphabet_x10(void)
 			start = start + 1;
 		}
 		repeater = repeater + 1;
-		if (repeater < 10)
-		{
-			_putchar('\n');
-		}
+		_putchar('\n');
 	}
 }
