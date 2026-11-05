@@ -18,12 +18,12 @@ void print_alphabet_x10(void)
 	{
 		start = 'a';
 		while (start <= 'z')
-		{	
+		{
 			_putchar(start);
-			start = start + 1;	
+			start = start + 1;
 		}
 		repeater++;
-		if (repeater <= 9) 
+		if (repeater < 10)
 		{
 			_putchar('\n');
 		}
