@@ -22,7 +22,7 @@ void print_alphabet_x10(void)
 			_putchar(start);
 			start = start + 1;
 		}
-		repeater++;
+		repeater = repeater + 1;
 		if (repeater < 10)
 		{
 			_putchar('\n');
