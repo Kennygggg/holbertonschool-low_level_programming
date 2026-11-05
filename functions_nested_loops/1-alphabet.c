@@ -1,21 +1,21 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * print_alphabet - runs loop to display a -z
  *
  * Return: Always 0
  */
 
 void print_alphabet(void)
 {
-    int start;
-    
-    start = 'a';
+	int start;
 
-    while (start <= 'z')
-    {
-	    _putchar(start);
-	    start = start + 1;
-    }
-    putchar('\n');
+	start = 'a';
+
+	while (start <= 'z')
+	{
+		_putchar(start);
+		start = start + 1;
+	}
+	_putchar('\n');
 }
