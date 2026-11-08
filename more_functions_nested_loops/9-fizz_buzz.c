@@ -33,7 +33,15 @@ int main(void)
         for (number = 1; number <= 100; number++)
         {
                 FizzBuzz(number);
-                putchar(' ');
+
+		if (number < 100)
+		{
+			putchar(' ');
+		}
+		else 
+		{
+			putchar('\n');
+		}
         }
         return (0);
 }
