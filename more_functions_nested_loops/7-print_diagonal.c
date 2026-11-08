@@ -13,6 +13,11 @@ void print_diagonal(int n)
 	int row;
 	int column;
 
+	if (n == 0)
+	{
+		_putchar('\n');
+	}
+	
 	for (row = 1; row <= n; row++)
 	{
 		column = 1;
