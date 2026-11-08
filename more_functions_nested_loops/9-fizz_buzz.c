@@ -28,20 +28,21 @@ int FizzBuzz(int number)
 
 int main(void)
 {
-        int number;
+	int number;
 
-        for (number = 1; number <= 100; number++)
-        {
-                FizzBuzz(number);
+	for (number = 1; number <= 100; number++)
+	{
+		FizzBuzz(number);
 
 		if (number < 100)
 		{
 			putchar(' ');
 		}
-		else 
+
+		else
 		{
 			putchar('\n');
 		}
-        }
-        return (0);
+	}
+	return (0);
 }
