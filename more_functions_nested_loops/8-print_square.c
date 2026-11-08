@@ -4,6 +4,8 @@
  * print_square - this function is to print # into square based
  * on the value from main.
  *
+ * @size: value given by main to determine size of square.
+ *
  * return: printed squares use (#)
  */
 
