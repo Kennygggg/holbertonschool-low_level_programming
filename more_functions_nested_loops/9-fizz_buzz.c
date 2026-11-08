@@ -1,15 +1,6 @@
 #include "main.h"
 #include <stdio.h>
 
-/**
- * FizzBuzz - checks whether a number has a value of multiples of 3 and 5,
- * or number with both 3 and 5
- *
- * @number: stored value from main
- *
- * Return: returns checked value based on the function.
- */
-
 int FizzBuzz(int number)
 {
 	int check;
@@ -33,4 +24,16 @@ int FizzBuzz(int number)
 		printf("%d", check);
 	}
 	return (check);
+}
+
+int main(void)
+{
+        int number;
+
+        for (number = 1; number <= 100; number++)
+        {
+                FizzBuzz(number);
+                putchar(' ');
+        }
+        return (0);
 }
