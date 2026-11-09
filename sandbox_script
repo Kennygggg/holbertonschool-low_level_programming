@@ -8,7 +8,9 @@ alias gs='git status'
 
 # Other Alias
 alias ux='chmod u+x '
-alias gcc='gcc -Wall -Werror -Wextra -pedantic -std=gnu89'
+alias gcc='gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-long-long'
+
+//g/cc -Wall -Werror -Wextra -pedantic -std=gnu89//
 
 # Git configs
 git config --global credential.helper 'cache --timeout=7200'
