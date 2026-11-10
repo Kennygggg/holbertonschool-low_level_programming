@@ -18,7 +18,7 @@ void print_rev(char *s)
 	}
 	typer--;
 
-	while (s[typer] >= 0)
+	while (typer >= 0)
 	{
 		_putchar(s[typer]);
 		typer--;
