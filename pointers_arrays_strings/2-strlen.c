@@ -6,12 +6,13 @@
 *
 * @s: checks the string from main
 *
-* return: number of chracters from checked string.
+* Return: number of chracters from checked string.
 */
 
 int _strlen(char *s)
 {
 	int count;
+
 	count = 0;
 
 	while (s[count] != '\0')
