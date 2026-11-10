@@ -16,6 +16,7 @@ void print_rev(char *s)
 	{
 		typer++;
 	}
+	typer--;
 
 	while (s[typer] >= 0)
 	{
@@ -24,3 +25,4 @@ void print_rev(char *s)
 	}
 	_putchar('\n');
 }
+
