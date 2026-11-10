@@ -10,8 +10,24 @@ void rev_string(char *s)
 	int left;
 	int right;
 	char temp;
+	int length;
 
-	temp = s[left];
-	left = s[0];
-	right =
+	left = 0;
+	length = 0;
+
+	while (s[length] != '\0')
+	{
+		length++;
+	}
+	right = length - 1;
+
+	while (left < right)
+	{
+		temp = s[left];
+		s[left] = s[right];
+		s[right] = temp;
+
+		left++;
+		right--;
+	}
 }
