@@ -1,3 +1,4 @@
+char *_strcat(char *dest, char *src);
 int _strlen(char *s);
 char *_strcpy(char *dest, char *src);
 void puts2(char *str);
