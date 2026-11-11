@@ -1,4 +1,5 @@
 int _strlen(char *s);
+char *_strcpy(char *dest, char *src);
 void puts2(char *str);
 void _puts(char *str);
 int _putchar(char c);
