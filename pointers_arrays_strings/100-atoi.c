@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
-* _atoi -
+* _atoi - this function converts string from main to integars.
 *
+* @s: checks string value from main
 *
-*
+* Return: returns sign * number which is either (+ or -) and number.
 *
 */
 
@@ -32,5 +33,6 @@ int _atoi(char *s)
 		number = number * 10 + (s[length] - '0');
 		length++;
 	}
-	return (sign * number);
+	number = sign * number;
+	return (number);
 }
