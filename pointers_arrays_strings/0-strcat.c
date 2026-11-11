@@ -21,8 +21,6 @@ char *_strcat(char *dest, char *src)
 	{
 		index++;
 	}
-	dest[index] = ' ';
-	index++;
 
 	temp = 0;
 
