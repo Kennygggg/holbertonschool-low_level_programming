@@ -6,3 +6,4 @@ char *_strcpy(char *dest, char *src);
 void puts2(char *str);
 char *_strncat(char *dest, char *src, int n);
 char *_strncpy(char *dest, char *src, int n);
+char *string_toupper(char *);
