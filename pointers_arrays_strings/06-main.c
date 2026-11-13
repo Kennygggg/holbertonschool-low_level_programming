@@ -1,3 +1,10 @@
+//6. Expect the best. Prepare for the worst. Capitalize on what comes
+//Write a function that capitalizes all words of a string.
+
+//Prototype: char *cap_string(char *);
+//Separators of words: space, tabulation, new line, ,, ;, ., !, ?, ", (, ), {, and }
+
+
 //julien@ubuntu:~/$ cat 6-main.c
 #include "main.h"
 #include <stdio.h>
@@ -22,5 +29,5 @@ int main(void)
 //Expect The Best. Prepare For The Worst. Capitalize On What Comes.
 //Hello World! Hello-world 0123456hello World    Hello World.Hello World
 //Expect The Best. Prepare For The Worst. Capitalize On What Comes.
-//heapsortllo World! Hello-world 0123456hello World    Hello World.Hello World
+//heapsortllo World! Hello-world 0123456hello  World    Hello World.Hello World
 //julien@ubuntu:~/$ 
