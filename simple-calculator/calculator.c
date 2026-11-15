@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
 * main - this is where the calculator starts and we ask for operation
@@ -13,19 +14,43 @@ int main(void)
 {
 	int choice;
 	int read_count;
+	int A;
+	int B;
+	int result;
 
+	printf("Welcome! Mathmetics done for you!\n\n"
+	"Simple Calculator\n");
+	
 	while (1)
 	{
-		printf("Welcome! Mathmetics done for you!\n\n"
-	 	"Simple Calculator\n"
-	 	"1) Add\n"
+	 	printf("1) Addition\n"
 	 	"2) Subtraction\n"
 		"3) Mulitply\n"
 		"4) Divide\n"
 		"0) Quit\n\n"
 		"Choose an Operation (0-1): \n");
 
+		printf("Choice: ");
 		read_count = scanf("%d", &choice);
+		printf("\n\n");
+
+		if (read_count == 1 && choice == 1)
+		{
+			printf("You have selected Addition\n");
+			
+			while (1)
+			{
+				printf("A: ");
+				scanf("%d", &A);
+				printf("B: ");
+				scanf("%d", &B);
+				result = A + B;
+				printf("Result: %d\n\n\n", result);
+				break;
+			}
+		}
+
+
 
 		if (read_count == 1 && choice == 0)
 		{
