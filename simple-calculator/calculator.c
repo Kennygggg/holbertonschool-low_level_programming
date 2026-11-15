@@ -6,14 +6,11 @@
 * input for calculation.
 *
 * Return: calcuation.
-*
-*
 */
 
 int main(void)
 {
 	int choice;
-	int read_count;
 	double A;
 	double B;
 	double result;
@@ -31,10 +28,10 @@ int main(void)
 		"Choose an Operation (0-1): \n");
 
 		printf("Choice: ");
-		read_count = scanf("%d", &choice);
+		scanf("%d", &choice);
 		printf("\n\n");
 
-		if (read_count == 1 && choice == 4)
+		if (choice == 4)
 		{
 			printf("You have selected divison\n");
 			
@@ -58,7 +55,7 @@ int main(void)
 			}
 		}
 
-		if (read_count == 1 && choice == 3)
+		if (choice == 3)
 		{
 			printf("You have selected multiplication\n");
 			
@@ -74,7 +71,7 @@ int main(void)
 			}
 		}
 
-		if (read_count == 1 && choice == 1)
+		if (choice == 1)
 		{
 			printf("You have selected Addition\n");
 			
@@ -90,7 +87,7 @@ int main(void)
 			}
 		}
 
-		if (read_count == 1 && choice == 2)
+		if (choice == 2)
 		{
 			printf("You have selected Subtraction\n");
 			
@@ -106,13 +103,13 @@ int main(void)
 			}
 		}
 
-		if (read_count == 1 && choice == 0)
+		if (choice == 0)
 		{
 			printf("Bye!");
 			return (0);
 		}
 
-		if (read_count != 1 || choice < 1 || choice > 4)
+		if (choice < 1 || choice > 4)
 		{
 			printf("Invalid choice\n\n\n");
 		}
