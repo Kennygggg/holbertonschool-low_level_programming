@@ -50,7 +50,21 @@ int main(void)
 			}
 		}
 
-
+		if (read_count == 1 && choice == 2)
+		{
+			printf("You have selected Subtraction\n");
+			
+			while (1)
+			{
+				printf("A: ");
+				scanf("%d", &A);
+				printf("B: ");
+				scanf("%d", &B);
+				result = A - B;
+				printf("Result: %d\n\n\n", result);
+				break;
+			}
+		}
 
 		if (read_count == 1 && choice == 0)
 		{
