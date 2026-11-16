@@ -79,6 +79,7 @@ int main(void)
 			{
 				printf("A: ");
 				scanf("%lf", &A);
+				scanf("%lf", &A);
 				printf("B: ");
 				scanf("%lf", &B);
 				result = A + B;
