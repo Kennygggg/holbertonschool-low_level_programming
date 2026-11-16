@@ -18,8 +18,6 @@ char *_strstr(char *haystack, char *needle)
 
 	index = 0;
 
-	
-
 	while (haystack[index] != '\0')
 	{
 
@@ -36,5 +34,5 @@ char *_strstr(char *haystack, char *needle)
 		}
 		index++;
 	}
-	return (haystack);
+	return (0);
 }
