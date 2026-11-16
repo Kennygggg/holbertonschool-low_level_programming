@@ -18,7 +18,7 @@
 int main(void)
 {
     char *s = "hello, world";
-    char *f = "world";
+    char *f = "holberton";
     char *t;
 
     t = _strstr(s, f);
