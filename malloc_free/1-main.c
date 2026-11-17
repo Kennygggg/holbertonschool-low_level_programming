@@ -34,4 +34,4 @@ int main(void)
 //julien@ubuntu:~/0x0a. malloc, free$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-strdup.c -o s
 //julien@ubuntu:~/0x0a. malloc, free$ ./s 
 //Duplicated
-//julien@ubuntu:~/0x0a. malloc, free$ 
+//julien@ubuntu:~/0x0a. malloc, free$
