@@ -3,7 +3,7 @@
 
 /**
 * _strdup - This is a function that returns a poiinter to a newly allocated
-* 
+*
 * space.
 *
 * @str: this is a pointer to a string from main.
@@ -29,7 +29,7 @@ char *_strdup(char *str)
 		count++;
 	}
 
-	array = malloc(count * sizeof(char));
+	array = malloc(count * sizeof(char) + 1);
 
 	if (array == NULL)
 	{
