@@ -40,7 +40,7 @@ int main(void) {
 
 	dog.i = 0;
 	dog.c = '0';
-
+c
 	bird.i = 0;
 	bird.j = 0;
 

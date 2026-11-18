@@ -50,11 +50,11 @@ int **alloc_grid(int width, int height)
 		}
 	}
 
-	while (col > 0)
-	{
-		free(array[col]);
-		col--;
-	}
-	free(array);
+	//while (col > 0)
+	//{
+	//	free(array[col]);
+	//	col--;
+	//}
+	//free(array);
 	return (array);
 }
