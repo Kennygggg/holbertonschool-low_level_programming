@@ -49,5 +49,12 @@ int **alloc_grid(int width, int height)
 			array[index][col] = 0;
 		}
 	}
+
+	while (col > 0)
+	{
+		free(array[col]);
+		col--;
+	}
+	free(array);
 	return (array);
 }
