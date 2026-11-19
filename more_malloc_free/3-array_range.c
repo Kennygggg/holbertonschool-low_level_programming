@@ -25,10 +25,10 @@ int *array_range(int min, int max)
 	total = max - (min);
 	if (total < 0)
 	{
-		total = total * -1;
+		total = (total + 1) * -1;
 	}
 
-	array = malloc((total + 1) * sizeof(int));
+	array = malloc(total * sizeof(int));
 
 	if (array == NULL)
 	{
