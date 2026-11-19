@@ -22,11 +22,7 @@ int *array_range(int min, int max)
 		return (NULL);
 	}
 
-	total = max - (min);
-	if (total < 0)
-	{
-		total = total * -1;
-	}
+	total = max - min;
 
 	array = malloc((total + 1) * sizeof(int));
 
@@ -37,7 +33,7 @@ int *array_range(int min, int max)
 
 	for (index = 0; index <= total; index++)
 	{
-		array[index] = index;
+		array[index] = min + index;
 	}
 	return (array);
 }
