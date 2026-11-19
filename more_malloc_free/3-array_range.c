@@ -15,20 +15,27 @@ int *array_range(int min, int max)
 {
 	int *array;
 	int index;
+	int total;
 
 	if (min > max)
 	{
 		return (NULL);
 	}
 
-	array = malloc(((max - (min) * -1) + 1) * sizeof(int));
+	total = max - (min);
+	if (total < 0)
+	{
+		total = total * -1;
+	}
+
+	array = malloc((total + 1) * sizeof(int));
 
 	if (array == NULL)
 	{
 		return (NULL);
 	}
 
-	for (index = 0; index <= max; index++)
+	for (index = 0; index <= total; index++)
 	{
 		array[index] = index;
 	}
