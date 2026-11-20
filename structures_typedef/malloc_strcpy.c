@@ -6,7 +6,7 @@
  *
  * Return: Pointer to the copied string, or NULL on failure
  */
-char *allocate_string(char *str)
+char *malloc_strcpy(char *str)
 {
 	size_t length;
 	size_t index;
