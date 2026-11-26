@@ -2,12 +2,21 @@
 
 void player_init(player_t *p, char *name, unsigned int level, unsigned int hp, unsigned int damage, unsigned int class)
 {
+	p->name = name;
+	p->level = level;
+	p->hp = hp;
+	p->damage = damage;
+	p->class = class;
 
+	if (class == WARRIOR)
+	{
+		p->repr = repr_warrior;
+	}
 }
 
 void repr_warrior(player_t *p)
 {
-	
+
 }
 
 void repr_rogue(player_t *p)
