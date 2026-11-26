@@ -21,7 +21,7 @@ int main(void)
     print_strings(", ", 2, "Jay", "Django");
     return (0);
 }
-// julien@ubuntu:~/0x0f. Variadic functions$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-print_strings.c -o c
+// julien@ubuntu:~/0x0f. Variadic functions$ gcc -wall -pedantic -werror -wextra -std=gnu89 2-main.c 2-print_strings.c -o c
 // julien@ubuntu:~/0x0f. Variadic functions$ ./c 
 // Jay, Django
 // julien@ubuntu:~/0x0f. Variadic functions$ 
